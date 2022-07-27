@@ -6022,7 +6022,7 @@
                     o = "fak" === z,
                     C = o ? "" : "fa-w-".concat(Math.ceil(V / i * 16)),
                     L = [lc.replacementClass, v ? "".concat(lc.familyPrefix, "-").concat(v) : "", C].filter(function (
-                    c) {
+                        c) {
                         return -1 === f.classes.indexOf(c)
                     }).filter(function (c) {
                         return "" !== c || !!c
@@ -6963,16 +6963,16 @@
                             l = c.autoReplaceSvgRoot,
                             h = c.observeMutationsRoot;
                         !1 === lc.autoReplaceSvg && (lc.autoReplaceSvg = !0), lc.observeMutations = !0, U(
-                        function () {
-                            Tl({
-                                autoReplaceSvgRoot: l
-                            }), el({
-                                treeCallback: pl,
-                                nodeCallback: bl,
-                                pseudoElementsCallback: yl,
-                                observeMutationsRoot: h
+                            function () {
+                                Tl({
+                                    autoReplaceSvgRoot: l
+                                }), el({
+                                    treeCallback: pl,
+                                    nodeCallback: bl,
+                                    pseudoElementsCallback: yl,
+                                    observeMutationsRoot: h
+                                })
                             })
-                        })
                     }
                 },
                 Nl = (Ol = function (c) {
@@ -7003,31 +7003,31 @@
                             type: "icon"
                         }, c), function () {
                             return kl(), lc.autoA11y && (f ? o["aria-labelledby"] = "".concat(lc
-                                        .replacementClass, "-title-")
-                                    .concat(r || pc()) : (o["aria-hidden"] = "true", o.focusable = "false")
-                                    ), qc({
-                                    icons: {
-                                        main: Cl(p),
-                                        mask: e ? Cl(e.icon) : {
-                                            found: !1,
-                                            width: null,
-                                            height: null,
-                                            icon: {}
-                                        }
-                                    },
-                                    prefix: u,
-                                    iconName: d,
-                                    transform: $({}, Lc, a),
-                                    symbol: v,
-                                    title: f,
-                                    maskId: t,
-                                    titleId: r,
-                                    extra: {
-                                        attributes: o,
-                                        styles: L,
-                                        classes: V
+                                    .replacementClass, "-title-")
+                                .concat(r || pc()) : (o["aria-hidden"] = "true", o.focusable = "false")
+                            ), qc({
+                                icons: {
+                                    main: Cl(p),
+                                    mask: e ? Cl(e.icon) : {
+                                        found: !1,
+                                        width: null,
+                                        height: null,
+                                        icon: {}
                                     }
-                                })
+                                },
+                                prefix: u,
+                                iconName: d,
+                                transform: $({}, Lc, a),
+                                symbol: v,
+                                title: f,
+                                maskId: t,
+                                titleId: r,
+                                extra: {
+                                    attributes: o,
+                                    styles: L,
+                                    classes: V
+                                }
+                            })
                         })
                     }
                 }, function (c) {
